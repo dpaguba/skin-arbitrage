@@ -1,0 +1,24 @@
+# Credentials and machine specific input
+.env
+proxies.txt
+
+# Run databases and exports
+*.sqlite
+*.sqlite3
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# macOS
+.DS_Store
